@@ -112,12 +112,7 @@ export function AutoCompleteInput(
     ) {
       setResults({ placeResults: [], svResults: [] });
     }
-  }, [
-    lastScrollY,
-    setLastScrollY,
-    lastScrollYOnTrigger,
-    setLastScrollYOnTrigger,
-  ]);
+  }, [lastScrollY, lastScrollYOnTrigger]);
 
   useEffect(() => {
     // For the first load when q= param is set, we want to ensure the
