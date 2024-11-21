@@ -91,6 +91,7 @@ class MainPane extends React.Component<MainPanePropType> {
   }
 
   renderChartBlock(data: ChartBlockData, category: string): JSX.Element {
+    console.log("Making this ChartBlock with ", data.title, " and ", category)
     return (
       <ChartBlock
         key={data.title + "-" + randDomId()}
@@ -112,6 +113,7 @@ class MainPane extends React.Component<MainPanePropType> {
     const categoryData = this.props.pageChart[this.props.category];
     const isOverview = this.props.category === "Overview";
     const topics = Object.keys(categoryData);
+    console.log("The topcis are ", topics)
     return (
       <RawIntlProvider value={intl}>
         {showOverview(

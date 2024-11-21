@@ -399,6 +399,7 @@ def has_data(data):
 def data(dcid):
   """Get chart spec and stats data of the landing page for a given place.
   """
+  print("\n\ndataaaaa\n\n")
   start_time = time.time()
   logging.info(
       "Landing Page: cache miss for place:%s and category:%s "
@@ -408,8 +409,10 @@ def data(dcid):
   if not target_category:
     return "No 'category' specified", 400
 
+  print("\n\n\nHellow worls here building spec")
   spec_and_stat = build_spec(current_app.config['CHART_CONFIG'],
                              target_category)
+  # print(spec_and_stat)
   new_stat_vars = current_app.config['NEW_STAT_VARS']
 
   # Place landing page mixer API takes a parameter "seed" to randomly pick
@@ -421,6 +424,7 @@ def data(dcid):
                                            new_stat_vars,
                                            seed=seed)
 
+  print("Raw Page Data is ", raw_page_data)
   if 'statVarSeries' not in raw_page_data:
     logging.info("Landing Page: No data for %s", dcid)
     return Response(json.dumps({}), 200, mimetype='application/json')
@@ -440,9 +444,9 @@ def data(dcid):
 
   all_stat = raw_page_data['statVarSeries']
 
-  if dcid not in all_stat:
-    logging.info("Landing Page: No data for %s", dcid)
-    return Response(json.dumps({}), 200, mimetype='application/json')
+  # if dcid not in all_stat:
+  #   logging.info("Landing Page: No data for %s", dcid)
+  #   return Response(json.dumps({}), 200, mimetype='application/json')
 
   # Remove empty category and topics
   for category in list(spec_and_stat.keys()):
@@ -451,7 +455,7 @@ def data(dcid):
       for chart in spec_and_stat[category][topic]:
         keep_chart = False
         for stat_var in chart['statsVars']:
-          if all_stat[dcid].get('data', {}).get(stat_var, {}):
+          if dcid in all_stat and all_stat[dcid].get('data', {}).get(stat_var, {}):
             keep_chart = True
             break
         if keep_chart:
@@ -461,15 +465,15 @@ def data(dcid):
       else:
         spec_and_stat[category][topic] = filtered_charts
     # Don't delete a category if it is in the valid categories list.
-    if (not spec_and_stat[category]) and (
-        "validCategories"
-        in raw_page_data) and (dcid in raw_page_data["validCategories"]) and (
-            category not in raw_page_data["validCategories"][dcid]["category"]):
+    if (not spec_and_stat[category]) and ("validCategories" in raw_page_data) and (dcid in raw_page_data["validCategories"]) and ("category" in raw_page_data["validCategories"][dcid]) and (category not in raw_page_data["validCategories"][dcid]["category"]):
       del spec_and_stat[category]
+
+  print("Final Spec And Stat: ", spec_and_stat)
 
   # Populate the data for each chart.
   # This is heavy lifting, takes time to process.
   def populate_category_data(category, stats, spec_obj):
+    print("\n\populate_category_data\n\n")
     if category == OVERVIEW:
       if is_usa_place:
         chart_types = ['nearby', 'child']
@@ -516,6 +520,7 @@ def data(dcid):
   # Populate data for the Overview page for categories which don't have
   # any configured data there by "borrowing" it from the category page.
   def populate_additional_category_data(category):
+    print("\n\npopulate_additional_category_data\n\n")
     cat_data = dc.get_landing_page_data(dcid, category, new_stat_vars)
     total_charts = 0
     cat_stats = cat_data['statVarSeries']
@@ -525,7 +530,7 @@ def data(dcid):
       for chart in cat_spec_and_stat[category][topic]:
         keep_chart = False
         for stat_var in chart['statsVars']:
-          if cat_stats[dcid].get('data', {}).get(stat_var, {}):
+          if dcid in cat_stats and cat_stats[dcid].get('data', {}).get(stat_var, {}):
             keep_chart = True
             break
         if keep_chart:
@@ -561,8 +566,9 @@ def data(dcid):
   # Get chart category name translations
   ordered_category_dict = {}
   all_categories = set(
-      list(spec_and_stat.keys()) + list(spec_and_stat[OVERVIEW]) +
-      raw_page_data["validCategories"][dcid]['category'])
+      list(spec_and_stat.keys()) + list(spec_and_stat[OVERVIEW]))
+  if 'category' in raw_page_data["validCategories"][dcid]:
+    all_categories.update(list(raw_page_data["validCategories"][dcid]['category']))
 
   ordered_category_dict[OVERVIEW] = gettext(
       f'CHART_TITLE-CHART_CATEGORY-{OVERVIEW}')

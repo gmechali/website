@@ -131,6 +131,7 @@ async function getLandingPageData(
       `/api/landingpage/data/${dcid}?category=${category}&hl=${locale}&seed=${seed}`
     )
     .then((resp) => {
+      console.log("And the resp is: ", resp.data);
       return resp.data;
     });
 }
@@ -225,6 +226,7 @@ function renderPage(): void {
         document.getElementById("menu")
       );
 
+      console.log("So the place type is ", placeType)
       if (!showOverview(isUsaPlace, placeType, category)) {
         ReactDOM.render(
           React.createElement(PlaceHighlight, {
@@ -260,6 +262,7 @@ function renderPage(): void {
         document.getElementById("child-place")
       );
 
+      console.log("Page Subtitle", category, "and ", data.categories[category])
       ReactDOM.render(
         React.createElement(PageSubtitle, {
           category,

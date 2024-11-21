@@ -179,6 +179,7 @@ def api_place_type(place_dcid):
 def api_name():
   """Get place names."""
   dcids = request.args.getlist('dcids')
+  print("Hello world, we're in place name\n", dcids)
   if not dcids:
     dcids = request.json['dcids']
   dcids = list(filter(lambda d: d != '', dcids))
@@ -249,6 +250,7 @@ def extract_locale_name(entry, locale):
 def api_i18n_name():
   """Get place i18n names."""
   dcids = request.args.getlist('dcid')
+  print("Hello world, we're in i18nplace name\n", dcids)
   result = get_i18n_name(dcids)
   return Response(json.dumps(result), 200, mimetype='application/json')
 

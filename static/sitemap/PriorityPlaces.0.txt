@@ -1233,3 +1233,6 @@ https://datacommons.org/place/wikidataId/Q484706
 https://datacommons.org/place/wikidataId/Q42154
 https://datacommons.org/place/wikidataId/Q202162
 https://datacommons.org/place/wikidataId/Q6809713
+https://datacommons.org/place/africa
+https://datacommons.org/place/europe
+https://datacommons.org/place/northamerica

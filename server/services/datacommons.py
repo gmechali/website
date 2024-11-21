@@ -453,6 +453,8 @@ def search_statvar(query, places, sv_only):
 def get_landing_page_data(dcid, category: str, new_stat_vars: List, seed=0):
   req = {'node': dcid, 'category': category, 'seed': seed}
   if new_stat_vars:
+    # print("New Stat vars: ", new_stat_vars)
     req['newStatVars'] = new_stat_vars
   url = get_service_url('/v1/internal/page/place')
+  # print("URL IS\n\n", url)
   return post(url, req)

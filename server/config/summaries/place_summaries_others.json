@@ -88,5 +88,26 @@
     },
     "nuts/UKM34": {
         "summary": "Glasgow is a city in United Kingdom. The population in Glasgow was 598,830 in 2011."
+    },
+    "afric1a": {
+        "summary": "Africa is a continent that contains morocco."
+    },
+    "asia1": {
+        "summary": "asia is a continent that contains israel."
+    },
+    "europe": {
+        "summary": "europe is a continent that contains france."
+    },
+    "northa1merica": {
+        "summary": "northamerica is a continent that contains USA."
+    },
+    "southam1erica": {
+        "summary": "southamerica is a continent that contains argentina."
+    },
+    "oceania1": {
+        "summary": "oceania is a continent that contains australia."
+    },
+    "antarcti1ca": {
+        "summary": "antarctica is a continent that is cold.."
     }
 }

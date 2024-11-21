@@ -47,6 +47,7 @@ def get_shard_name(dcid: str) -> str:
 def get_shard_filename_by_dcid(dcid: str) -> str:
   """Get the filename of the shard containing the summary for a given DCID"""
   shard_name = get_shard_name(dcid)
+  print("get_shard_filename_by_dcid: ", dcid)
   if shard_name:
     return SHARD_FILENAME.format(shard=shard_name)
   return DEFAULT_FILENAME
