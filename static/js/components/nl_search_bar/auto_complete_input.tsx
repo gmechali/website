@@ -82,9 +82,7 @@ export function AutoCompleteInput(
   const [lastAutoCompleteSelection, setLastAutoCompleteSelection] =
     useState("");
   // Used to reduce sensitivity to scrolling for autocomplete result dismissal.
-  // Tracks the last scrollY value at time of autocomplete request.
   const [lastScrollYOnTrigger, setLastScrollYOnTrigger] = useState(0);
-  // Tracks the last scrollY value for current height offsett.
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const isHeaderBar = props.barType == "header";
@@ -101,7 +99,7 @@ export function AutoCompleteInput(
   }, []);
 
   // Whenever any of the scrollY states change, recompute to see if we need to hide the results.
-  // We only hide the results when the user has scrolled past 15% of the window height since the autocomplete request.
+  // We only hide the results when the user has scrolled past 15% of the window height.
   // It allows the user to navigate through the page without being annoyed by the results,
   // and to scroll through the results without them disappearing.
   useEffect(() => {
@@ -111,7 +109,12 @@ export function AutoCompleteInput(
     ) {
       setResults({ placeResults: [], svResults: [] });
     }
-  }, [lastScrollY, lastScrollYOnTrigger]);
+  }, [
+    lastScrollY,
+    setLastScrollY,
+    lastScrollYOnTrigger,
+    setLastScrollYOnTrigger,
+  ]);
 
   useEffect(() => {
     // For the first load when q= param is set, we want to ensure the
