@@ -44,8 +44,13 @@ def dev_place(place_dcid=None):
   if g.locale == DEFAULT_LOCALE:
     place_summary = get_place_summaries(place_dcid).get(place_dcid,
                                                         {}).get("summary", "")
+    print("\n\nSo we now have the place summary")
+    print(place_summary)
   else:
     place_summary = ""
+
+  print("AND WE have this too")
+  print(place_type_with_parent_places_links)
 
   return flask.render_template(
       'dev_place.html',
