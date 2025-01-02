@@ -88,5 +88,26 @@
     },
     "nuts/UKM34": {
         "summary": "Glasgow is a city in United Kingdom. The population in Glasgow was 598,830 in 2011."
+    },
+    "africa": {
+        "summary": "Africa is a continent."
+    },
+    "antarctica": {
+        "summary": "Antarctica is a continent."
+    },
+    "asia": {
+        "summary": "Asia is a continent."
+    },
+    "europe": {
+        "summary": "Europe is a continent."
+    },
+    "northamerica": {
+        "summary": "North America is a continent."
+    },
+    "oceania": {
+        "summary": "Oceania is a continent."
+    },
+    "southamerica": {
+        "summary": "South America is a continent."
     }
 }

@@ -40,7 +40,10 @@ def main(files: List[str]):
   # Combine and sort summaries into shards
   combined_summaries = utils.combine_summaries(summaries)
   sharded_summaries = utils.shard_summaries(combined_summaries)
-
+  print("combined_summaries")
+  print(combined_summaries)
+  print("sharded_summaries")
+  print(sharded_summaries)
   # Write each shard to file
   utils.write_shards_to_files(sharded_summaries)
 

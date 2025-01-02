@@ -37,7 +37,7 @@ _TEMPLATE_STARTING_SENTENCE = "{place_name} is a {place_type} in {parent_places}
 _TEMPLATE_VALUE_SENTENCE = "The {stat_var_name} in {place_name} was {value} in {year}."
 
 # Where to write intermediate results to
-_TEMP_FILENAME = 'generated_summaries/temp_output_batch_{num}.json'
+_TEMP_FILENAME = 'tools/summaries/generated_summaries/temp_output_batch_{num}.json'
 
 # Number of places to process at once
 _BATCH_SIZE = 500
@@ -77,6 +77,10 @@ def initialize_summaries(
 
       elif parent['type'] in ["State", "Country"]:
         parents_to_display.append(parent['name'])
+
+    if place_type == "Continent":
+      sentence = place_name + " is a continent."
+      sentences[place_dcid] = [sentence]
 
     if place_name and place_type and parents_to_display:
       # format parent places for display
@@ -132,6 +136,8 @@ def build_template_summaries(place_dcids: List[str], stat_var_json=str) -> Dict:
       # Get stat var values for all stat vars to use
       data_series = dc.get_data_series(place_dcid, sv_list)
 
+      # print("Dataseries are: ")
+      # print(sv_list)
       # Write a sentence for each stat var
       for sv, sv_data in data_series.items():
         series = sv_data.get("val", {})
@@ -145,6 +151,8 @@ def build_template_summaries(place_dcids: List[str], stat_var_json=str) -> Dict:
             value=utils.format_stat_var_value(value, sv_config.get(sv, {})),
             year=latest_date[:4])
 
+        print("Sentences are: ")
+        print(sentences)
         if place_dcid not in sentences:
           sentences[place_dcid] = [sentence]
         else:
@@ -170,6 +178,8 @@ def build_template_summaries_for_sitemap(sitemap: str,
 
   # Extract places to create summaries for from sitemap
   places = utils.get_places_from_sitemap(sitemap)
+  print("Places ")
+  print(places)
   if start_index:
     # Skip first lines of sitemap to start processing at start_index instead
     places = places[start_index:]
@@ -189,8 +199,9 @@ def build_template_summaries_for_sitemap(sitemap: str,
     # Write intermediate results to a temporary file
     # This allows us to save partial progress incase we hit server errors
     temp_path = _TEMP_FILENAME.format(num=batch_num)
+    print('WRITING intermediate results to ' + temp_path)
     utils.write_summaries_to_file(summaries=summaries, output_file=temp_path)
-    logging.info(f'Wrote intermediate results to {temp_path}')
+    print('Wrote intermediate results to ' + temp_path)
     logging.info(
         f'Took {timedelta(seconds=time.time()-batch_start_time)} to write batch'
     )
