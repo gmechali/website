@@ -22,4 +22,10 @@
     "enabled": true,
     "owner": "gmechali",
     "description": "Feature flag to enable the scroll to top button on the explore and place pages."
+},
+{
+    "name": "dynamic_place_page_charts",
+    "enabled": true,
+    "owner": "gmechali",
+    "description": "Feature flag to enable dynamic place page charts."
 }]

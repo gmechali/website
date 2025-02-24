@@ -20,21 +20,16 @@ import server.services.datacommons as dc
 
 bp = Blueprint("variable-group", __name__, url_prefix='/api/variable-group')
 
-
-@bp.route('/info', methods=['POST'])
-def variable_group_info():
+def variable_group_info_util(dcids, entities, num_entities_existence):
   """Gets the stat var group node information.
 
   This is to retrieve the adjacent nodes, including child stat vars, child stat
   var groups and parent stat var groups for the given stat var group node.
   """
-  dcid = request.json.get("dcid")
-  entities = request.json.get("entities")
-  numEntitiesExistence = request.json.get("numEntitiesExistence", 1)
-  if not dcid:
+  if not dcids:
     return 'error: must provide a `dcid` field', 400
 
-  resp = dc.get_variable_group_info([dcid], entities, numEntitiesExistence)
+  resp = dc.get_variable_group_info(dcids, entities, num_entities_existence)
   result = resp.get("data", [{}])[0].get("info", {})
   if current_app.config["BLOCKLIST_SVG"]:
     blocklist_svgs = set(current_app.config["BLOCKLIST_SVG"])
@@ -47,3 +42,10 @@ def variable_group_info():
       filteredChildSVG.append(svg)
     result["childStatVarGroups"] = filteredChildSVG
   return result
+
+@bp.route('/info', methods=['POST'])
+def variable_group_info():
+  dcid = request.json.get("dcid")
+  entities = request.json.get("entities")
+  num_entities_existence = request.json.get("numEntitiesExistence", 1)
+  return variable_group_info_util([dcid], entities, num_entities_existence)

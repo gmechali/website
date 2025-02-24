@@ -181,17 +181,40 @@ export function createPlacePageCategoryHref(
   forceDevPlaces: boolean,
   place: NamedTypedPlace
 ): string {
-  const href = `/place/${place.dcid}`;
+  let href = `/place/${place.dcid}`;
+  const useNl = false;
+  const useTopics = false;
   const params = new URLSearchParams();
   const isOverview = category === "Overview";
 
   if (!isOverview) {
-    params.set("category", category);
+    if (!useNl && !useTopics) {
+      params.set("category", category);
+    }
+
+    if (category === 'Economics') {
+      category = 'Economy';
+    }
+
+    if (useNl) {
+      href = `/explore`;
+      params.set('q', `${category} in ${place.name}`);
+    } else if (useTopics) {
+      href = `/explore`;
+      params.set('t', `dc/topic/${category}`);
+      params.set('p', place.dcid);
+    }
+
   }
   if (forceDevPlaces) {
     params.set("force_dev_places", "true");
   }
-  return params.size > 0 ? `${href}?${params.toString()}` : href;
+
+  if (useNl || useTopics) {
+    return params.size > 0 ? `${href}#${params.toString()}` : href;
+  } else {
+    return params.size > 0 ? `${href}?${params.toString()}` : href;
+  }
 }
 
 /**
@@ -337,9 +360,9 @@ export function placeChartsApiResponsesToPageConfig(
         blocks: newblocks,
         statVarSpec,
         title:
-          categoryNameToCategory[categoryName].translatedName || categoryName,
+          categoryNameToCategory[categoryName]?.translatedName || categoryName,
       };
-      if (isOverview && categoryNameToCategory[categoryName].hasMoreCharts) {
+      if (isOverview && categoryNameToCategory[categoryName]?.hasMoreCharts) {
         category.url = localizeLink(
           createPlacePageCategoryHref(categoryName, forceDevPlaces, place)
         );

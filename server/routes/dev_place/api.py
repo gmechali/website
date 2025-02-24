@@ -23,6 +23,8 @@ from flask import jsonify
 from flask import request
 
 from server.lib.cache import cache
+from server.lib.feature_flags import is_feature_enabled
+from server.lib.feature_flags import DYNAMIC_PLACE_PAGE_CHARTS_FEATURE_FLAG
 from server.lib.util import error_response
 from server.lib.util import log_execution_time
 from server.routes import TIMEOUT
@@ -83,11 +85,17 @@ async def place_charts(place_dcid: str):
         f"Argument 'category' {place_category} must be one of: {', '.join(place_utils.ALLOWED_CATEGORIES)}"
     )
 
-  # Retrieve available place page charts
-  full_chart_config = place_utils.read_chart_configs()
-
   # Blocking call to fetch the current place info
   place = await asyncio.to_thread(place_utils.fetch_place, place_dcid, g.locale)
+
+  use_dynamic_charts = is_feature_enabled(DYNAMIC_PLACE_PAGE_CHARTS_FEATURE_FLAG)
+  full_chart_config = []
+  if use_dynamic_charts:
+    topics = place_utils.fetch_topics(place)
+    topics_to_stat_vars = await place_utils.fetch_stat_vars_for_topics(topics, place)
+    full_chart_config = place_utils.generate_chart_configs_for_dict(topics_to_stat_vars)
+  else:
+    full_chart_config = place_utils.read_chart_configs()
 
   parent_place_override, child_place_type_to_highlight, place_type = await fetch_place_types(
       place)
@@ -118,6 +126,8 @@ async def place_charts(place_dcid: str):
 
   categories_with_more_charts = place_utils.get_categories_metadata(
       place_category, chart_config_existing_data, chart_config_for_category)
+  print("Categories")
+  print(categories_with_more_charts)
 
   response = PlaceChartsApiResponse(blocks=blocks,
                                     place=place,

@@ -23,6 +23,7 @@ from flask import current_app
 from flask import request
 
 from server.lib.nl.common import serialize
+from server.lib.util import log_execution_time
 import server.lib.nl.common.constants as constants
 import server.lib.nl.common.counters as ctr
 import server.lib.nl.common.utils as utils
@@ -91,6 +92,7 @@ def fulfill():
 #
 # The detect and fulfill endpoint.
 #
+@log_execution_time
 @bp.route('/detect-and-fulfill', methods=['POST'])
 def detect_and_fulfill():
   debug_logs = {}

@@ -35,11 +35,15 @@ from server.routes.dev_place.types import BlockConfig
 from server.routes.dev_place.types import Category
 from server.routes.dev_place.types import Chart
 from server.routes.dev_place.types import OverviewTableDataRow
+from server.routes.dev_place.types import Topic
 from server.routes.dev_place.types import Place
 from server.routes.dev_place.types import ServerBlockMetadata
 from server.routes.dev_place.types import ServerChartConfiguration
 from server.routes.dev_place.types import ServerChartMetadata
 import server.routes.shared_api.place as place_api
+import server.routes.shared_api.variable_group as variable_group_api
+import server.routes.shared_api.variable as variable_api
+import server.routes.shared_api.node as node_api
 from server.services import datacommons as dc
 
 # Parent place types to include in listing of containing places at top of page
@@ -59,7 +63,8 @@ PARENT_PLACE_TYPES_TO_HIGHLIGHT = [
 # Place page categories
 ORDERED_TOPICS = [
     "Economics", "Health", "Equity", "Crime", "Education", "Demographics",
-    "Housing", "Environment", "Energy"
+    "Housing", "Environment", "Energy", "dc/g/Agriculture", "dc/g/Demographics", "dc/g/Economy",
+    "dc/g/Education", "dc/g/Health", "dc/g/Housing", "dc/g/Environment", "dc/g/SDG"
 ]
 TOPICS = set(ORDERED_TOPICS)
 OVERVIEW_CATEGORY = "Overview"
@@ -706,6 +711,121 @@ def get_child_place_type_to_highlight(place: Place) -> str:
   return child_place_type
 
 
+def fetch_topics(place: Place) -> Dict[str, list[str]]:
+  results = variable_group_api.variable_group_info_util("dc/g/Root", place.dcid, 15)
+  ret = [Topic(name=r['displayName'], dcid=r['id']) for r in results['childStatVarGroups']]
+  print(ret)
+  return ret
+
+# async def fetch_stat_vars_for_topics(topics: List[Topic], place: 'Place') -> Dict[Topic, List[str]]:
+#     """Efficiently fetches stat vars for topics and subtopics using batch API calls."""
+#     topic_to_stat_vars = {}
+#     subtopics_to_topic = {}
+#     topic_queue = list(topics)  # Use a queue to manage topics
+#     topics_seen = set()
+
+#     while topic_queue:
+#         batch = [t for t in topic_queue[:10] if t not in topics_seen]
+#         topic_queue = topic_queue[10:]
+
+#         dcids = [topic.dcid for topic in batch]
+#         results = await asyncio.to_thread(
+#             lambda: variable_group_api.variable_group_info_util(dcids, place.dcid, 15)
+#         )
+
+#         # Iterate through the topics in the batch and match them with results
+#         print("BATCH\n")
+#         print(batch)
+#         for topic in batch:
+#           print("Topic\n")
+#           print(topic)
+
+#           print("\nResults\n\n")
+#           print(results)
+#           # result = next((r for r in results if 'id' in r and r['id'] == topic.dcid), None) #find the correct result.
+
+
+#           if result:
+#             print("Result: ")
+#             print(result)
+#             topic_to_stat_vars[topic] = [r['id'] for r in result.get('childStatVars', [])]
+
+#             for subtopic_data in result.get('childStatVarGroups', []):
+#               subtopic = Topic(dcid=subtopic_data['id'], name=subtopic_data['displayName'])
+#               subtopics_to_topic[subtopic] = topic
+#               topic_queue.append(subtopic)  # Add subtopics to the queue
+#           else:
+#             print("NO Result")
+
+#     print("subtopics_to_topic")
+#     print(subtopics_to_topic)
+
+#     return topic_to_stat_vars
+
+async def fetch_stat_vars_for_topics(topics: List[Dict[str, str]], place: 'Place') -> Dict[Topic, List[str]]:
+    """Returns list of stat vars per topic using asyncio."""
+    topic_to_stat_vars = {}
+    subtopics_to_topic = {}
+    queue = []
+
+    async def fetch_topic_data(topics: List[Topic], parent_topic: Topic):
+        results = await asyncio.to_thread(lambda: variable_group_api.variable_group_info_util([t.dcid for t in topics], place.dcid, 15))
+          
+        new_topics = {Topic(dcid=r['id'], name=r['displayName']): parent_topic for r in results['childStatVarGroups'] if 'childStatVarGroups' in results}
+        subtopics_to_topic.update(new_topics)
+        topic_to_stat_vars[parent_topic] = [r['id'] for r in results.get('childStatVars', [])]
+
+        queue = list(new_topics.keys())
+        # print(queue)
+        # print("queue\n\n\\n\nn")
+        if queue and (parent_topic not in topic_to_stat_vars or len(topic_to_stat_vars[parent_topic]) < 20):
+          await fetch_topic_data(queue, parent_topic)
+
+    tasks = [fetch_topic_data([t], t) for t in topics]
+    await asyncio.gather(*tasks)
+
+    print("topic_to_stat_vars")
+    print(topic_to_stat_vars)
+
+    return topic_to_stat_vars
+    
+  # async def fetch_stat_vars_for_topics(topics: List[Dict[str, str]], place: 'Place') -> Dict[Topic, List[str]]:
+  #   """Returns list of stat vars per topic using asyncio."""
+  #   topic_to_stat_vars = {}
+  #   subtopics_to_topic = {}
+
+  #   async def fetch_topic_data(topic: Topic):
+  #       results = await asyncio.to_thread(
+  #           lambda: variable_group_api.variable_group_info_util([topic.dcid], place.dcid, 15)
+  #       )
+
+  #       subtopics_to_topic.update({Topic(dcid=r['id'], name=r['displayName']): topic for r in results.get('childStatVarGroups', [])})
+  #       topic_to_stat_vars[topic] = [r['id'] for r in results.get('childStatVars', [])]
+
+
+  #   tasks = [fetch_topic_data(t) for t in topics]
+  #   await asyncio.gather(*tasks)
+
+  #   print("subtopics_to_topic")
+  #   print(subtopics_to_topic)
+
+  #   return topic_to_stat_vars
+
+def generate_chart_configs_for_dict(topics_to_stat_vars: Dict[Topic, List[str]]) -> List[ServerChartConfiguration]:
+  """Returns things"""
+  configs = []
+  for topic, stat_vars in topics_to_stat_vars.items():
+    for stat_var in stat_vars:
+      is_overview = random.choice([True, False])
+      place_block = ServerBlockMetadata(place_scope="PLACE", is_overview=is_overview, charts=[ServerChartMetadata(type="LINE"), ServerChartMetadata(type="HIGHLIGHT")])
+      peer_block = ServerBlockMetadata(place_scope="PEER_PLACES_WITHIN_PARENT", is_overview=is_overview, charts=[ServerChartMetadata(type="BAR")])
+      child_block = ServerBlockMetadata(place_scope="CHILD_PLACES", is_overview=is_overview, charts=[ServerChartMetadata(type="MAP"), ServerChartMetadata(type="RANKING")])
+      config = ServerChartConfiguration(category=topic.name, title=stat_var, title_id=stat_var, description=stat_var, variables=[stat_var], denominator=[], non_dividable=False, blocks=[place_block, child_block, peer_block])
+      configs.append(config)
+  print("Configs: ")
+  print(configs)
+  return configs
+
 def read_chart_configs() -> List[ServerChartConfiguration]:
   """Reads the raw chart configs from app settings and parses them into the appropriate dataclasses."""
   raw_chart_configs = copy.deepcopy(current_app.config['CHART_CONFIG'])
@@ -796,6 +916,9 @@ def translate_chart_config(
       translated_block.title = ': '.join(title_sections)
 
     translated_chart_config.append(translated_item)
+
+  print(translated_chart_config)
+  print("translated_chart_config\n\n\n\n")
   return translated_chart_config
 
 
@@ -832,9 +955,9 @@ def get_categories_metadata(
   categories_set: Set[str] = set(
       [item.category for item in existing_chart_config])
 
-  for category in ORDERED_TOPICS:
-    if not category in categories_set:
-      continue
+  for category in categories_set:
+    # if not category in categories_set:
+    #   continue
 
     # Determine whether there are more charts in the category page than on the
     # overview for that category.

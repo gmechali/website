@@ -104,6 +104,19 @@ class ServerChartMetadata:
       return False
     return (self.type == other.type and self.max_places == other.max_places)
 
+@dataclass
+class Topic:
+  """Topic class"""
+  name: str
+  dcid: str
+
+  def __eq__(self, other):
+    if not isinstance(other, Topic):
+      return False
+    return (self.name == other.name and self.dcid == other.dcid)
+
+  def __hash__(self):
+    return hash((self.name, self.dcid))
 
 @dataclass
 class ServerBlockMetadata:

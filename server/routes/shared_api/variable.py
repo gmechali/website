@@ -29,14 +29,16 @@ def get_variable_path():
   dcid = escape(request.args.get("dcid"))
   return json.dumps([dcid] + dc.get_variable_ancestors(dcid)), 200
 
-
-@bp.route('/info')
-def variable_info():
-  """Gets the info of a list of stat var."""
-  dcids = request.args.getlist("dcids")
+def variable_info_utils(dcids: list[str]):
   data = dc.variable_info(dcids).get("data", [])
   result = {}
   for item in data:
     if "info" in item and "node" in item:
       result[item["node"]] = item["info"]
   return result
+
+@bp.route('/info')
+def variable_info():
+  """Gets the info of a list of stat var."""
+  dcids = request.args.getlist("dcids")
+  return variable_info_utils(dcids)
