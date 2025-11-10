@@ -1,8 +1,12 @@
+from datacommons_client.client import DataCommonsClient
 import datacommons as dc
+import datacommons_client as dc_client
 import json
 import os
 import time
 import glob
+
+dc_client2 = DataCommonsClient(api_key=os.getenv('DATACOMMONS_API_KEY'))
 
 # Define the base directory for sitemap files
 SITEMAP_BASE_DIR = '/Users/gmechali/Desktop/datacommons/website/static/sitemap'
@@ -224,6 +228,7 @@ all_dcids_list = list(all_dcids)
 names_map = {}
 types_map = {}
 contained_in_place_map = {}
+population_map = {}
 
 # Chunk size for API calls and delay
 CHUNK_SIZE = 500
@@ -236,10 +241,27 @@ for i in range(0, len(all_dcids_list), CHUNK_SIZE):
         chunk_names = dc.get_property_values(chunk, 'name')
         chunk_types = dc.get_property_values(chunk, 'typeOf')
         chunk_contained_in = dc.get_property_values(chunk, 'containedInPlace')
+        # Reverting to get_stat_series, which is compatible with the installed library version
+        # chunk_population_series = dc_client2.observation.fetch(date="latest", entity_dcids=chunk, variable_dcids="Count_Person")
+        df_frame = dc_client2.observations_dataframe(
+            variable_dcids="Count_Person",
+            date="latest",
+            entity_dcids=chunk
+        )
+        print("HELOOO!!! " + str(df_frame))
+        # client.observation.fetch_observations_by_entity_dcid(date="2015", entity_dcids=["country/USA", "geoId/06"], variable_dcids="Count_Person")
+
 
         names_map.update(chunk_names)
         types_map.update(chunk_types)
         contained_in_place_map.update(chunk_contained_in)
+
+        # Process the time series data to get the latest population value
+        if df_frame is not None:
+            for _, row in df_frame.iterrows():
+                dcid = row['entity']
+                population = row['value']
+                population_map[dcid] = population
 
     except Exception as e:
         print(f"Warning: Data Commons API call failed for chunk {i}-{i+len(chunk)-1}: {e}. Using fallback names and types for this chunk.")
@@ -294,13 +316,21 @@ for dcid in all_dcids_list:
             contained_in_place_names.append(contained_dcid.split('/')[-1])
 
 
+    # Get population with a fallback
+    population = population_map.get(dcid, 0)
+    if population is None:
+        population = 0
+
     json_object = {
         "dcid": dcid,
         "name": name,
         "type": place_type,
+        "population": population,
         "alternativeNames": current_alternative_names,
         "containedInPlace": contained_in_place_names
     }
+
+    print("Appending place: " + json.dumps(json_object))
 
     # Output the JSON object directly as requested
     updated_lines.append(json.dumps(json_object) + '\n')
