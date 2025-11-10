@@ -1,0 +1,273 @@
+{"dcid": "country/ABW", "name": "Aruba", "alternativeNames": []}
+{"dcid": "country/AFG", "name": "Afghanistan", "alternativeNames": []}
+{"dcid": "country/AFI", "name": "French Afars and Issas", "alternativeNames": []}
+{"dcid": "country/AGO", "name": "Angola", "alternativeNames": []}
+{"dcid": "country/AIA", "name": "Anguilla", "alternativeNames": []}
+{"dcid": "country/ALA", "name": "\u00c5land Islands", "alternativeNames": []}
+{"dcid": "country/ALB", "name": "Albania", "alternativeNames": []}
+{"dcid": "country/AND", "name": "Andorra", "alternativeNames": []}
+{"dcid": "country/ANT", "name": "Netherlands Antilles", "alternativeNames": []}
+{"dcid": "country/ARE", "name": "United Arab Emirates", "alternativeNames": ["UAE"]}
+{"dcid": "country/ARG", "name": "Argentina", "alternativeNames": []}
+{"dcid": "country/ARM", "name": "Armenia", "alternativeNames": []}
+{"dcid": "country/ASM", "name": "American Samoa", "alternativeNames": []}
+{"dcid": "country/ATA", "name": "Antarctica", "alternativeNames": []}
+{"dcid": "country/ATB", "name": "British Antarctic Territory", "alternativeNames": []}
+{"dcid": "country/ATF", "name": "French Southern Territories", "alternativeNames": []}
+{"dcid": "country/ATG", "name": "Antigua and Barbuda", "alternativeNames": []}
+{"dcid": "country/ATN", "name": "Dronning Maud Land", "alternativeNames": []}
+{"dcid": "country/AUS", "name": "Australia", "alternativeNames": []}
+{"dcid": "country/AUT", "name": "Austria", "alternativeNames": []}
+{"dcid": "country/AZE", "name": "Azerbaijan", "alternativeNames": []}
+{"dcid": "country/BDI", "name": "Burundi", "alternativeNames": []}
+{"dcid": "country/BEL", "name": "Belgium", "alternativeNames": []}
+{"dcid": "country/BEN", "name": "Benin", "alternativeNames": []}
+{"dcid": "country/BES", "name": "Bonaire, Sint Eustatius and Saba", "alternativeNames": []}
+{"dcid": "country/BFA", "name": "Burkina Faso", "alternativeNames": []}
+{"dcid": "country/BGD", "name": "Bangladesh", "alternativeNames": []}
+{"dcid": "country/BGR", "name": "Bulgaria", "alternativeNames": []}
+{"dcid": "country/BHR", "name": "Bahrain", "alternativeNames": []}
+{"dcid": "country/BHS", "name": "Bahamas", "alternativeNames": []}
+{"dcid": "country/BIH", "name": "Bosnia and Herzegovina", "alternativeNames": []}
+{"dcid": "country/BLM", "name": "Saint Barth\u00e9lemy", "alternativeNames": []}
+{"dcid": "country/BLR", "name": "Belarus", "alternativeNames": []}
+{"dcid": "country/BLZ", "name": "Belize", "alternativeNames": []}
+{"dcid": "country/BMU", "name": "Bermuda", "alternativeNames": []}
+{"dcid": "country/BOL", "name": "Bolivia", "alternativeNames": []}
+{"dcid": "country/BRA", "name": "Brazil", "alternativeNames": []}
+{"dcid": "country/BRB", "name": "Barbados", "alternativeNames": []}
+{"dcid": "country/BRN", "name": "Brunei", "alternativeNames": []}
+{"dcid": "country/BTN", "name": "Bhutan", "alternativeNames": []}
+{"dcid": "country/BVT", "name": "Bouvet Island", "alternativeNames": []}
+{"dcid": "country/BWA", "name": "Botswana", "alternativeNames": []}
+{"dcid": "country/BYS", "name": "Byelorussian SSR", "alternativeNames": []}
+{"dcid": "country/CAF", "name": "Central African Republic", "alternativeNames": []}
+{"dcid": "country/CAN", "name": "Canada", "alternativeNames": []}
+{"dcid": "country/CCK", "name": "Cocos (Keeling) Islands", "alternativeNames": []}
+{"dcid": "country/CHE", "name": "Switzerland", "alternativeNames": []}
+{"dcid": "country/CHL", "name": "Chile", "alternativeNames": []}
+{"dcid": "country/CHN", "name": "China", "alternativeNames": ["People's Republic of China"]}
+{"dcid": "country/CIV", "name": "C\u00f4te d'Ivoire", "alternativeNames": []}
+{"dcid": "country/CMR", "name": "Cameroon", "alternativeNames": []}
+{"dcid": "country/COD", "name": "Congo [DRC]", "alternativeNames": []}
+{"dcid": "country/COG", "name": "Congo [Republic]", "alternativeNames": []}
+{"dcid": "country/COK", "name": "Cook Islands", "alternativeNames": []}
+{"dcid": "country/COL", "name": "Colombia", "alternativeNames": []}
+{"dcid": "country/COM", "name": "Comoros", "alternativeNames": []}
+{"dcid": "country/CPV", "name": "Cape Verde", "alternativeNames": []}
+{"dcid": "country/CRI", "name": "Costa Rica", "alternativeNames": []}
+{"dcid": "country/CSK", "name": "Czechoslovakia", "alternativeNames": []}
+{"dcid": "country/CTE", "name": "Canton and Enderbury Islands", "alternativeNames": []}
+{"dcid": "country/CUB", "name": "Cuba", "alternativeNames": []}
+{"dcid": "country/CUW", "name": "Cura\u00e7ao", "alternativeNames": []}
+{"dcid": "country/CXR", "name": "Christmas Island", "alternativeNames": []}
+{"dcid": "country/CYM", "name": "Cayman Islands", "alternativeNames": []}
+{"dcid": "country/CYP", "name": "Cyprus", "alternativeNames": []}
+{"dcid": "country/CZE", "name": "Czech Republic", "alternativeNames": []}
+{"dcid": "country/DDR", "name": "German Democratic Republic", "alternativeNames": []}
+{"dcid": "country/DEU", "name": "Germany", "alternativeNames": []}
+{"dcid": "country/DHY", "name": "Dahomey", "alternativeNames": []}
+{"dcid": "country/DJI", "name": "Djibouti", "alternativeNames": []}
+{"dcid": "country/DMA", "name": "Dominica", "alternativeNames": []}
+{"dcid": "country/DNK", "name": "Denmark", "alternativeNames": []}
+{"dcid": "country/DOM", "name": "Dominican Republic", "alternativeNames": []}
+{"dcid": "country/DZA", "name": "Algeria", "alternativeNames": []}
+{"dcid": "country/ECU", "name": "Ecuador", "alternativeNames": []}
+{"dcid": "country/EGY", "name": "Egypt", "alternativeNames": []}
+{"dcid": "country/ERI", "name": "Eritrea", "alternativeNames": []}
+{"dcid": "country/ESH", "name": "Western Sahara", "alternativeNames": []}
+{"dcid": "country/ESP", "name": "Spain", "alternativeNames": []}
+{"dcid": "country/EST", "name": "Estonia", "alternativeNames": []}
+{"dcid": "country/ETH", "name": "Ethiopia", "alternativeNames": []}
+{"dcid": "country/FIN", "name": "Finland", "alternativeNames": []}
+{"dcid": "country/FJI", "name": "Fiji", "alternativeNames": []}
+{"dcid": "country/FLK", "name": "Falkland Islands", "alternativeNames": []}
+{"dcid": "country/FRA", "name": "France", "alternativeNames": []}
+{"dcid": "country/FRO", "name": "Faroe Islands", "alternativeNames": []}
+{"dcid": "country/FSM", "name": "Federated States of Micronesia", "alternativeNames": []}
+{"dcid": "country/FXX", "name": "Metropolitan France", "alternativeNames": []}
+{"dcid": "country/GAB", "name": "Gabon", "alternativeNames": []}
+{"dcid": "country/GBR", "name": "United Kingdom", "alternativeNames": ["Great Britain", "UK", "Britain"]}
+{"dcid": "country/GEL", "name": "Gilbert and Ellice Islands", "alternativeNames": []}
+{"dcid": "country/GEO", "name": "Georgia", "alternativeNames": []}
+{"dcid": "country/GGY", "name": "Guernsey", "alternativeNames": []}
+{"dcid": "country/GHA", "name": "Ghana", "alternativeNames": []}
+{"dcid": "country/GIB", "name": "Gibraltar", "alternativeNames": []}
+{"dcid": "country/GIN", "name": "Guinea", "alternativeNames": []}
+{"dcid": "country/GLP", "name": "Guadeloupe", "alternativeNames": []}
+{"dcid": "country/GMB", "name": "Gambia", "alternativeNames": []}
+{"dcid": "country/GNB", "name": "Guinea-Bissau", "alternativeNames": []}
+{"dcid": "country/GNQ", "name": "Equatorial Guinea", "alternativeNames": []}
+{"dcid": "country/GRC", "name": "Greece", "alternativeNames": []}
+{"dcid": "country/GRD", "name": "Grenada", "alternativeNames": []}
+{"dcid": "country/GRL", "name": "Greenland", "alternativeNames": []}
+{"dcid": "country/GTM", "name": "Guatemala", "alternativeNames": []}
+{"dcid": "country/GUF", "name": "French Guiana", "alternativeNames": []}
+{"dcid": "country/GUM", "name": "Guam", "alternativeNames": []}
+{"dcid": "country/GUY", "name": "Guyana", "alternativeNames": []}
+{"dcid": "country/HKG", "name": "Hong Kong", "alternativeNames": []}
+{"dcid": "country/HMD", "name": "Heard Island and McDonald Islands", "alternativeNames": []}
+{"dcid": "country/HND", "name": "Honduras", "alternativeNames": []}
+{"dcid": "country/HRV", "name": "Croatia", "alternativeNames": []}
+{"dcid": "country/HTI", "name": "Haiti", "alternativeNames": []}
+{"dcid": "country/HUN", "name": "Hungary", "alternativeNames": []}
+{"dcid": "country/HVO", "name": "Upper Volta", "alternativeNames": []}
+{"dcid": "country/IDN", "name": "Indonesia", "alternativeNames": []}
+{"dcid": "country/IMN", "name": "Isle of Man", "alternativeNames": []}
+{"dcid": "country/IND", "name": "India", "alternativeNames": []}
+{"dcid": "country/IOT", "name": "British Indian Ocean Territory", "alternativeNames": []}
+{"dcid": "country/IRL", "name": "Ireland", "alternativeNames": []}
+{"dcid": "country/IRN", "name": "Iran", "alternativeNames": []}
+{"dcid": "country/IRQ", "name": "Iraq", "alternativeNames": []}
+{"dcid": "country/ISL", "name": "Iceland", "alternativeNames": []}
+{"dcid": "country/ISR", "name": "Israel", "alternativeNames": []}
+{"dcid": "country/ITA", "name": "Italy", "alternativeNames": []}
+{"dcid": "country/JAM", "name": "Jamaica", "alternativeNames": []}
+{"dcid": "country/JEY", "name": "Jersey", "alternativeNames": []}
+{"dcid": "country/JOR", "name": "Jordan", "alternativeNames": []}
+{"dcid": "country/JPN", "name": "Japan", "alternativeNames": []}
+{"dcid": "country/KAZ", "name": "Kazakhstan", "alternativeNames": []}
+{"dcid": "country/KEN", "name": "Kenya", "alternativeNames": []}
+{"dcid": "country/KGZ", "name": "Kyrgyzstan", "alternativeNames": []}
+{"dcid": "country/KHM", "name": "Cambodia", "alternativeNames": []}
+{"dcid": "country/KIR", "name": "Kiribati", "alternativeNames": []}
+{"dcid": "country/KNA", "name": "Saint Kitts and Nevis", "alternativeNames": []}
+{"dcid": "country/KOR", "name": "South Korea", "alternativeNames": ["Republic of Korea"]}
+{"dcid": "country/KWT", "name": "Kuwait", "alternativeNames": []}
+{"dcid": "country/LAO", "name": "Laos", "alternativeNames": []}
+{"dcid": "country/LBN", "name": "Lebanon", "alternativeNames": []}
+{"dcid": "country/LBR", "name": "Liberia", "alternativeNames": []}
+{"dcid": "country/LBY", "name": "Libya", "alternativeNames": []}
+{"dcid": "country/LCA", "name": "Saint Lucia", "alternativeNames": []}
+{"dcid": "country/LIE", "name": "Liechtenstein", "alternativeNames": []}
+{"dcid": "country/LKA", "name": "Sri Lanka", "alternativeNames": []}
+{"dcid": "country/LSO", "name": "Lesotho", "alternativeNames": []}
+{"dcid": "country/LTU", "name": "Lithuania", "alternativeNames": []}
+{"dcid": "country/LUX", "name": "Luxembourg", "alternativeNames": []}
+{"dcid": "country/LVA", "name": "Latvia", "alternativeNames": []}
+{"dcid": "country/MAC", "name": "Macau", "alternativeNames": []}
+{"dcid": "country/MAF", "name": "Saint Martin", "alternativeNames": []}
+{"dcid": "country/MAR", "name": "Morocco", "alternativeNames": []}
+{"dcid": "country/MCO", "name": "Monaco", "alternativeNames": []}
+{"dcid": "country/MDA", "name": "Moldova", "alternativeNames": []}
+{"dcid": "country/MDG", "name": "Madagascar", "alternativeNames": []}
+{"dcid": "country/MDV", "name": "Maldives", "alternativeNames": []}
+{"dcid": "country/MEX", "name": "Mexico", "alternativeNames": []}
+{"dcid": "country/MHL", "name": "Marshall Islands", "alternativeNames": []}
+{"dcid": "country/MKD", "name": "Macedonia [FYROM]", "alternativeNames": []}
+{"dcid": "country/MLI", "name": "Mali", "alternativeNames": []}
+{"dcid": "country/MLT", "name": "Malta", "alternativeNames": []}
+{"dcid": "country/MMR", "name": "Myanmar", "alternativeNames": []}
+{"dcid": "country/MNE", "name": "Montenegro", "alternativeNames": []}
+{"dcid": "country/MNG", "name": "Mongolia", "alternativeNames": []}
+{"dcid": "country/MNP", "name": "Northern Mariana Islands", "alternativeNames": []}
+{"dcid": "country/MOZ", "name": "Mozambique", "alternativeNames": []}
+{"dcid": "country/MRT", "name": "Mauritania", "alternativeNames": []}
+{"dcid": "country/MSR", "name": "Montserrat", "alternativeNames": []}
+{"dcid": "country/MTQ", "name": "Martinique", "alternativeNames": []}
+{"dcid": "country/MUS", "name": "Mauritius", "alternativeNames": []}
+{"dcid": "country/MWI", "name": "Malawi", "alternativeNames": []}
+{"dcid": "country/MYS", "name": "Malaysia", "alternativeNames": []}
+{"dcid": "country/MYT", "name": "Mayotte", "alternativeNames": []}
+{"dcid": "country/NAM", "name": "Namibia", "alternativeNames": []}
+{"dcid": "country/NCL", "name": "New Caledonia", "alternativeNames": []}
+{"dcid": "country/NER", "name": "Niger", "alternativeNames": []}
+{"dcid": "country/NFK", "name": "Norfolk Island", "alternativeNames": []}
+{"dcid": "country/NGA", "name": "Nigeria", "alternativeNames": []}
+{"dcid": "country/NHB", "name": "New Hebrides", "alternativeNames": []}
+{"dcid": "country/NIC", "name": "Nicaragua", "alternativeNames": []}
+{"dcid": "country/NIU", "name": "Niue", "alternativeNames": []}
+{"dcid": "country/NLD", "name": "Netherlands", "alternativeNames": []}
+{"dcid": "country/NOR", "name": "Norway", "alternativeNames": []}
+{"dcid": "country/NPL", "name": "Nepal", "alternativeNames": []}
+{"dcid": "country/NRU", "name": "Nauru", "alternativeNames": []}
+{"dcid": "country/NZL", "name": "New Zealand", "alternativeNames": []}
+{"dcid": "country/OMN", "name": "Oman", "alternativeNames": []}
+{"dcid": "country/PAK", "name": "Pakistan", "alternativeNames": []}
+{"dcid": "country/PAN", "name": "Panama", "alternativeNames": []}
+{"dcid": "country/PCN", "name": "Pitcairn Islands", "alternativeNames": []}
+{"dcid": "country/PER", "name": "Peru", "alternativeNames": []}
+{"dcid": "country/PHL", "name": "Philippines", "alternativeNames": []}
+{"dcid": "country/PLW", "name": "Palau", "alternativeNames": []}
+{"dcid": "country/PNG", "name": "Papua New Guinea", "alternativeNames": []}
+{"dcid": "country/POL", "name": "Poland", "alternativeNames": []}
+{"dcid": "country/PRI", "name": "Puerto Rico", "alternativeNames": []}
+{"dcid": "country/PRK", "name": "North Korea", "alternativeNames": ["Democratic People's Republic of Korea"]}
+{"dcid": "country/PRT", "name": "Portugal", "alternativeNames": []}
+{"dcid": "country/PRY", "name": "Paraguay", "alternativeNames": []}
+{"dcid": "country/PSE", "name": "Palestinian Territories", "alternativeNames": []}
+{"dcid": "country/PYF", "name": "French Polynesia", "alternativeNames": []}
+{"dcid": "country/QAT", "name": "Qatar", "alternativeNames": []}
+{"dcid": "country/REU", "name": "R\u00e9union", "alternativeNames": []}
+{"dcid": "country/ROU", "name": "Romania", "alternativeNames": []}
+{"dcid": "country/RUS", "name": "Russia", "alternativeNames": ["Russian Federation"]}
+{"dcid": "country/RWA", "name": "Rwanda", "alternativeNames": []}
+{"dcid": "country/SAU", "name": "Saudi Arabia", "alternativeNames": []}
+{"dcid": "country/SCG", "name": "Serbia and Montenegro", "alternativeNames": []}
+{"dcid": "country/SDN", "name": "Sudan", "alternativeNames": []}
+{"dcid": "country/SEN", "name": "Senegal", "alternativeNames": []}
+{"dcid": "country/SGP", "name": "Singapore", "alternativeNames": []}
+{"dcid": "country/SGS", "name": "South Georgia and the South Sandwich Islands", "alternativeNames": []}
+{"dcid": "country/SHN", "name": "Saint Helena", "alternativeNames": []}
+{"dcid": "country/SJM", "name": "Svalbard and Jan Mayen", "alternativeNames": []}
+{"dcid": "country/SLB", "name": "Solomon Islands", "alternativeNames": []}
+{"dcid": "country/SLE", "name": "Sierra Leone", "alternativeNames": []}
+{"dcid": "country/SLV", "name": "El Salvador", "alternativeNames": []}
+{"dcid": "country/SMR", "name": "San Marino", "alternativeNames": []}
+{"dcid": "country/SOM", "name": "Somalia", "alternativeNames": []}
+{"dcid": "country/SPM", "name": "Saint Pierre and Miquelon", "alternativeNames": []}
+{"dcid": "country/SRB", "name": "Serbia", "alternativeNames": []}
+{"dcid": "country/SSD", "name": "South Sudan", "alternativeNames": []}
+{"dcid": "country/STP", "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe", "alternativeNames": []}
+{"dcid": "country/SUN", "name": "Union of Soviet Socialist Republics", "alternativeNames": []}
+{"dcid": "country/SUR", "name": "Suriname", "alternativeNames": []}
+{"dcid": "country/SVK", "name": "Slovakia", "alternativeNames": []}
+{"dcid": "country/SVN", "name": "Slovenia", "alternativeNames": []}
+{"dcid": "country/SWE", "name": "Sweden", "alternativeNames": []}
+{"dcid": "country/SWZ", "name": "Eswatini", "alternativeNames": []}
+{"dcid": "country/SXM", "name": "Sint Maarten", "alternativeNames": []}
+{"dcid": "country/SYC", "name": "Seychelles", "alternativeNames": []}
+{"dcid": "country/SYR", "name": "Syria", "alternativeNames": []}
+{"dcid": "country/TCA", "name": "Turks and Caicos Islands", "alternativeNames": []}
+{"dcid": "country/TCD", "name": "Chad", "alternativeNames": []}
+{"dcid": "country/TGO", "name": "Togo", "alternativeNames": []}
+{"dcid": "country/THA", "name": "Thailand", "alternativeNames": []}
+{"dcid": "country/TJK", "name": "Tajikistan", "alternativeNames": []}
+{"dcid": "country/TKL", "name": "Tokelau", "alternativeNames": []}
+{"dcid": "country/TKM", "name": "Turkmenistan", "alternativeNames": []}
+{"dcid": "country/TLS", "name": "East Timor", "alternativeNames": []}
+{"dcid": "country/TON", "name": "Tonga", "alternativeNames": []}
+{"dcid": "country/TTO", "name": "Trinidad and Tobago", "alternativeNames": []}
+{"dcid": "country/TUN", "name": "Tunisia", "alternativeNames": []}
+{"dcid": "country/TUR", "name": "Turkey", "alternativeNames": []}
+{"dcid": "country/TUV", "name": "Tuvalu", "alternativeNames": []}
+{"dcid": "country/TWN", "name": "Taiwan", "alternativeNames": []}
+{"dcid": "country/TZA", "name": "Tanzania", "alternativeNames": []}
+{"dcid": "country/UGA", "name": "Uganda", "alternativeNames": []}
+{"dcid": "country/UKR", "name": "Ukraine", "alternativeNames": []}
+{"dcid": "country/UMI", "name": "U.S. Minor Outlying Islands", "alternativeNames": []}
+{"dcid": "country/URY", "name": "Uruguay", "alternativeNames": []}
+{"dcid": "country/USA", "name": "United States", "alternativeNames": ["USA", "United States of America", "America"]}
+{"dcid": "country/UZB", "name": "Uzbekistan", "alternativeNames": []}
+{"dcid": "country/VAT", "name": "Vatican City", "alternativeNames": []}
+{"dcid": "country/VCT", "name": "Saint Vincent and the Grenadines", "alternativeNames": []}
+{"dcid": "country/VEN", "name": "Venezuela", "alternativeNames": []}
+{"dcid": "country/VGB", "name": "British Virgin Islands", "alternativeNames": []}
+{"dcid": "country/VIR", "name": "U.S. Virgin Islands", "alternativeNames": []}
+{"dcid": "country/VNM", "name": "Vietnam", "alternativeNames": ["Vietnam"]}
+{"dcid": "country/VUT", "name": "Vanuatu", "alternativeNames": []}
+{"dcid": "country/WLF", "name": "Wallis and Futuna", "alternativeNames": []}
+{"dcid": "country/WSM", "name": "Samoa", "alternativeNames": []}
+{"dcid": "country/XKS", "name": "Kosovo", "alternativeNames": []}
+{"dcid": "country/YEM", "name": "Yemen", "alternativeNames": []}
+{"dcid": "country/YUG", "name": "Yugoslavia", "alternativeNames": []}
+{"dcid": "country/ZAF", "name": "South Africa", "alternativeNames": []}
+{"dcid": "country/ZMB", "name": "Zambia", "alternativeNames": []}
+{"dcid": "country/ZWE", "name": "Zimbabwe", "alternativeNames": []}
+{"dcid": "wikidataId/Q130340667", "name": "Sovereign State of the Bektashi Order", "alternativeNames": []}
+{"dcid": "wikidataId/Q23681", "name": "Turkish Republic of Northern Cyprus", "alternativeNames": []}
+{"dcid": "wikidataId/Q244165", "name": "Artsakh", "alternativeNames": []}
+{"dcid": "wikidataId/Q29999", "name": "Kingdom of the Netherlands", "alternativeNames": []}
+{"dcid": "wikidataId/Q31354462", "name": "Republic of Abkhazia", "alternativeNames": []}
+{"dcid": "wikidataId/Q40362", "name": "Sahrawi Arab Democratic Republic", "alternativeNames": []}
+{"dcid": "wikidataId/Q756617", "name": "Kingdom of Denmark", "alternativeNames": []}

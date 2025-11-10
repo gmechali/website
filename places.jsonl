@@ -1,0 +1,273 @@
+{"dcid": "country/ABW", "name": "Aruba", "type": "Country", "alternativeNames": []}
+{"dcid": "country/AFG", "name": "Afghanistan", "type": "Country", "alternativeNames": ["Afghanistan", "Islamic Republic of Afghanistan"]}
+{"dcid": "country/AFI", "name": "French Afars and Issas", "type": "Country", "alternativeNames": []}
+{"dcid": "country/AGO", "name": "Angola", "type": "Country", "alternativeNames": ["Angola", "Republic of Angola"]}
+{"dcid": "country/AIA", "name": "Anguilla", "type": "AdministrativeArea1", "alternativeNames": ["Anguilla"]}
+{"dcid": "country/ALA", "name": "\u00c5land Islands", "type": "Country", "alternativeNames": ["\u00c5land Islands"]}
+{"dcid": "country/ALB", "name": "Albania", "type": "Country", "alternativeNames": ["Republic of Albania", "Albania"]}
+{"dcid": "country/AND", "name": "Andorra", "type": "Country", "alternativeNames": []}
+{"dcid": "country/ANT", "name": "Netherlands Antilles", "type": "Country", "alternativeNames": []}
+{"dcid": "country/ARE", "name": "United Arab Emirates", "type": "Country", "alternativeNames": ["UAE"]}
+{"dcid": "country/ARG", "name": "Argentina", "type": "Country", "alternativeNames": ["Argentina", "Argentine Republic"]}
+{"dcid": "country/ARM", "name": "Armenia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/ASM", "name": "American Samoa", "type": "AdministrativeArea1", "alternativeNames": []}
+{"dcid": "country/ATA", "name": "Antarctica", "type": "Country", "alternativeNames": ["Antarctica"]}
+{"dcid": "country/ATB", "name": "British Antarctic Territory", "type": "AdministrativeArea1", "alternativeNames": ["British Antarctic Territory"]}
+{"dcid": "country/ATF", "name": "French Southern Territories", "type": "Country", "alternativeNames": ["French Southern Territories"]}
+{"dcid": "country/ATG", "name": "Antigua and Barbuda", "type": "Country", "alternativeNames": []}
+{"dcid": "country/ATN", "name": "Dronning Maud Land", "type": "Country", "alternativeNames": []}
+{"dcid": "country/AUS", "name": "Australia", "type": "Country", "alternativeNames": ["Australia"]}
+{"dcid": "country/AUT", "name": "Austria", "type": "Country", "alternativeNames": ["Republic of Austria", "Austria"]}
+{"dcid": "country/AZE", "name": "Azerbaijan", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BDI", "name": "Burundi", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BEL", "name": "Belgium", "type": "Country", "alternativeNames": ["Belgium", "Kingdom of Belgium"]}
+{"dcid": "country/BEN", "name": "Benin", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BES", "name": "Bonaire, Sint Eustatius and Saba", "type": "Country", "alternativeNames": ["Bonaire, Sint Eustatius and Saba"]}
+{"dcid": "country/BFA", "name": "Burkina Faso", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BGD", "name": "Bangladesh", "type": "Country", "alternativeNames": ["People's Republic of Bangladesh", "Bangladesh"]}
+{"dcid": "country/BGR", "name": "Bulgaria", "type": "Country", "alternativeNames": ["Bulgaria", "Republic of Bulgaria"]}
+{"dcid": "country/BHR", "name": "Bahrain", "type": "Country", "alternativeNames": ["Kingdom of Bahrain", "Bahrain"]}
+{"dcid": "country/BHS", "name": "Bahamas", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BIH", "name": "Bosnia and Herzegovina", "type": "Country", "alternativeNames": ["Bosnia and Herzegovina"]}
+{"dcid": "country/BLM", "name": "Saint Barth\u00e9lemy", "type": "Country", "alternativeNames": ["Saint Barth\u00e9lemy"]}
+{"dcid": "country/BLR", "name": "Belarus", "type": "Country", "alternativeNames": ["Republic of Belarus", "Belarus"]}
+{"dcid": "country/BLZ", "name": "Belize", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BMU", "name": "Bermuda", "type": "AdministrativeArea1", "alternativeNames": ["Bermuda"]}
+{"dcid": "country/BOL", "name": "Bolivia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BRA", "name": "Brazil", "type": "Country", "alternativeNames": ["Federative Republic of Brazil", "Brazil"]}
+{"dcid": "country/BRB", "name": "Barbados", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BRN", "name": "Brunei", "type": "Country", "alternativeNames": []}
+{"dcid": "country/BTN", "name": "Bhutan", "type": "Country", "alternativeNames": ["Bhutan", "Kingdom of Bhutan"]}
+{"dcid": "country/BVT", "name": "Bouvet Island", "type": "Country", "alternativeNames": ["Bouvet Island"]}
+{"dcid": "country/BWA", "name": "Botswana", "type": "Country", "alternativeNames": ["Republic of Botswana", "Botswana"]}
+{"dcid": "country/BYS", "name": "Byelorussian SSR", "type": "Country", "alternativeNames": []}
+{"dcid": "country/CAF", "name": "Central African Republic", "type": "Country", "alternativeNames": ["Central African Republic", "CAR"]}
+{"dcid": "country/CAN", "name": "Canada", "type": "Country", "alternativeNames": ["Canada"]}
+{"dcid": "country/CCK", "name": "Cocos (Keeling) Islands", "type": "AdministrativeArea1", "alternativeNames": ["Cocos (Keeling) Islands"]}
+{"dcid": "country/CHE", "name": "Switzerland", "type": "Country", "alternativeNames": ["Switzerland", "Swiss Confederation"]}
+{"dcid": "country/CHL", "name": "Chile", "type": "Country", "alternativeNames": ["Republic of Chile", "Chile"]}
+{"dcid": "country/CHN", "name": "China", "type": "Country", "alternativeNames": ["China", "People's Republic of China", "PRC"]}
+{"dcid": "country/CIV", "name": "C\u00f4te d'Ivoire", "type": "Country", "alternativeNames": ["C\u00f4te d'Ivoire", "Ivory Coast"]}
+{"dcid": "country/CMR", "name": "Cameroon", "type": "Country", "alternativeNames": []}
+{"dcid": "country/COD", "name": "Congo [DRC]", "type": "Country", "alternativeNames": ["Congo (DRC)", "Democratic Republic of the Congo"]}
+{"dcid": "country/COG", "name": "Congo [Republic]", "type": "Country", "alternativeNames": ["Republic of the Congo", "Congo (Republic)"]}
+{"dcid": "country/COK", "name": "Cook Islands", "type": "Country", "alternativeNames": ["Cook Islands"]}
+{"dcid": "country/COL", "name": "Colombia", "type": "Country", "alternativeNames": ["Colombia", "Republic of Colombia"]}
+{"dcid": "country/COM", "name": "Comoros", "type": "Country", "alternativeNames": ["Comoros", "Union of the Comoros"]}
+{"dcid": "country/CPV", "name": "Cape Verde", "type": "Country", "alternativeNames": ["Cape Verde", "Republic of Cabo Verde"]}
+{"dcid": "country/CRI", "name": "Costa Rica", "type": "Country", "alternativeNames": []}
+{"dcid": "country/CSK", "name": "Czechoslovakia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/CTE", "name": "Canton and Enderbury Islands", "type": "Country", "alternativeNames": []}
+{"dcid": "country/CUB", "name": "Cuba", "type": "Country", "alternativeNames": []}
+{"dcid": "country/CUW", "name": "Cura\u00e7ao", "type": "Country", "alternativeNames": ["Cura\u00e7ao"]}
+{"dcid": "country/CXR", "name": "Christmas Island", "type": "AdministrativeArea1", "alternativeNames": ["Christmas Island"]}
+{"dcid": "country/CYM", "name": "Cayman Islands", "type": "AdministrativeArea1", "alternativeNames": ["Cayman Islands"]}
+{"dcid": "country/CYP", "name": "Cyprus", "type": "Country", "alternativeNames": ["Republic of Cyprus", "Cyprus"]}
+{"dcid": "country/CZE", "name": "Czech Republic", "type": "Country", "alternativeNames": []}
+{"dcid": "country/DDR", "name": "German Democratic Republic", "type": "Country", "alternativeNames": []}
+{"dcid": "country/DEU", "name": "Germany", "type": "Country", "alternativeNames": ["Federal Republic of Germany", "Germany"]}
+{"dcid": "country/DHY", "name": "Dahomey", "type": "Country", "alternativeNames": []}
+{"dcid": "country/DJI", "name": "Djibouti", "type": "Country", "alternativeNames": ["Republic of Djibouti", "Djibouti"]}
+{"dcid": "country/DMA", "name": "Dominica", "type": "Country", "alternativeNames": []}
+{"dcid": "country/DNK", "name": "Denmark", "type": "Country", "alternativeNames": ["Denmark", "Kingdom of Denmark"]}
+{"dcid": "country/DOM", "name": "Dominican Republic", "type": "Country", "alternativeNames": []}
+{"dcid": "country/DZA", "name": "Algeria", "type": "Country", "alternativeNames": ["People's Democratic Republic of Algeria", "Algeria"]}
+{"dcid": "country/ECU", "name": "Ecuador", "type": "Country", "alternativeNames": []}
+{"dcid": "country/EGY", "name": "Egypt", "type": "Country", "alternativeNames": ["Arab Republic of Egypt", "Egypt"]}
+{"dcid": "country/ERI", "name": "Eritrea", "type": "Country", "alternativeNames": ["Eritrea", "State of Eritrea"]}
+{"dcid": "country/ESH", "name": "Western Sahara", "type": "Country", "alternativeNames": ["Sahrawi Arab Democratic Republic", "Western Sahara"]}
+{"dcid": "country/ESP", "name": "Spain", "type": "Country", "alternativeNames": ["Spain", "Kingdom of Spain"]}
+{"dcid": "country/EST", "name": "Estonia", "type": "Country", "alternativeNames": ["Estonia", "Republic of Estonia"]}
+{"dcid": "country/ETH", "name": "Ethiopia", "type": "Country", "alternativeNames": ["Federal Democratic Republic of Ethiopia", "Ethiopia"]}
+{"dcid": "country/FIN", "name": "Finland", "type": "Country", "alternativeNames": ["Finland", "Republic of Finland"]}
+{"dcid": "country/FJI", "name": "Fiji", "type": "Country", "alternativeNames": ["Republic of Fiji", "Fiji"]}
+{"dcid": "country/FLK", "name": "Falkland Islands", "type": "AdministrativeArea1", "alternativeNames": ["Falkland Islands"]}
+{"dcid": "country/FRA", "name": "France", "type": "Country", "alternativeNames": ["French Republic", "France"]}
+{"dcid": "country/FRO", "name": "Faroe Islands", "type": "AdministrativeArea1", "alternativeNames": ["Faroe Islands"]}
+{"dcid": "country/FSM", "name": "Federated States of Micronesia", "type": "Country", "alternativeNames": ["Federated States of Micronesia"]}
+{"dcid": "country/FXX", "name": "Metropolitan France", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GAB", "name": "Gabon", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GBR", "name": "United Kingdom", "type": "Country", "alternativeNames": ["Britain", "United Kingdom of Great Britain and Northern Ireland", "Great Britain", "UK"]}
+{"dcid": "country/GEL", "name": "Gilbert and Ellice Islands", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GEO", "name": "Georgia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GGY", "name": "Guernsey", "type": "Country", "alternativeNames": ["Guernsey"]}
+{"dcid": "country/GHA", "name": "Ghana", "type": "Country", "alternativeNames": ["Ghana", "Republic of Ghana"]}
+{"dcid": "country/GIB", "name": "Gibraltar", "type": "AdministrativeArea1", "alternativeNames": ["Gibraltar"]}
+{"dcid": "country/GIN", "name": "Guinea", "type": "Country", "alternativeNames": ["Guinea", "Republic of Guinea"]}
+{"dcid": "country/GLP", "name": "Guadeloupe", "type": "AdministrativeArea1", "alternativeNames": ["Guadeloupe"]}
+{"dcid": "country/GMB", "name": "Gambia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GNB", "name": "Guinea-Bissau", "type": "Country", "alternativeNames": ["Republic of Guinea-Bissau", "Guinea-Bissau"]}
+{"dcid": "country/GNQ", "name": "Equatorial Guinea", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GRC", "name": "Greece", "type": "Country", "alternativeNames": ["Hellenic Republic", "Greece"]}
+{"dcid": "country/GRD", "name": "Grenada", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GRL", "name": "Greenland", "type": "AdministrativeArea1", "alternativeNames": ["Greenland"]}
+{"dcid": "country/GTM", "name": "Guatemala", "type": "Country", "alternativeNames": []}
+{"dcid": "country/GUF", "name": "French Guiana", "type": "AdministrativeArea1", "alternativeNames": ["French Guiana"]}
+{"dcid": "country/GUM", "name": "Guam", "type": "AdministrativeArea1", "alternativeNames": []}
+{"dcid": "country/GUY", "name": "Guyana", "type": "Country", "alternativeNames": []}
+{"dcid": "country/HKG", "name": "Hong Kong", "type": "AdministrativeArea1", "alternativeNames": ["Hong Kong", "Hong Kong Special Administrative Region"]}
+{"dcid": "country/HMD", "name": "Heard Island and McDonald Islands", "type": "AdministrativeArea1", "alternativeNames": ["Heard Island and McDonald Islands"]}
+{"dcid": "country/HND", "name": "Honduras", "type": "Country", "alternativeNames": []}
+{"dcid": "country/HRV", "name": "Croatia", "type": "Country", "alternativeNames": ["Republic of Croatia", "Croatia"]}
+{"dcid": "country/HTI", "name": "Haiti", "type": "Country", "alternativeNames": []}
+{"dcid": "country/HUN", "name": "Hungary", "type": "Country", "alternativeNames": []}
+{"dcid": "country/HVO", "name": "Upper Volta", "type": "Country", "alternativeNames": []}
+{"dcid": "country/IDN", "name": "Indonesia", "type": "Country", "alternativeNames": ["Indonesia", "Republic of Indonesia"]}
+{"dcid": "country/IMN", "name": "Isle of Man", "type": "Country", "alternativeNames": ["Isle of Man"]}
+{"dcid": "country/IND", "name": "India", "type": "Country", "alternativeNames": ["India", "Bharat"]}
+{"dcid": "country/IOT", "name": "British Indian Ocean Territory", "type": "AdministrativeArea1", "alternativeNames": ["British Indian Ocean Territory"]}
+{"dcid": "country/IRL", "name": "Ireland", "type": "Country", "alternativeNames": ["Republic of Ireland", "\u00c9ire", "Ireland"]}
+{"dcid": "country/IRN", "name": "Iran", "type": "Country", "alternativeNames": ["Persia", "Iran", "Islamic Republic of Iran"]}
+{"dcid": "country/IRQ", "name": "Iraq", "type": "Country", "alternativeNames": ["Iraq", "Republic of Iraq"]}
+{"dcid": "country/ISL", "name": "Iceland", "type": "Country", "alternativeNames": ["Republic of Iceland", "Iceland"]}
+{"dcid": "country/ISR", "name": "Israel", "type": "Country", "alternativeNames": ["State of Israel", "Israel"]}
+{"dcid": "country/ITA", "name": "Italy", "type": "Country", "alternativeNames": ["Italian Republic", "Italy"]}
+{"dcid": "country/JAM", "name": "Jamaica", "type": "Country", "alternativeNames": []}
+{"dcid": "country/JEY", "name": "Jersey", "type": "Country", "alternativeNames": ["Jersey"]}
+{"dcid": "country/JOR", "name": "Jordan", "type": "Country", "alternativeNames": ["Hashemite Kingdom of Jordan", "Jordan"]}
+{"dcid": "country/JPN", "name": "Japan", "type": "Country", "alternativeNames": ["Japan"]}
+{"dcid": "country/KAZ", "name": "Kazakhstan", "type": "Country", "alternativeNames": ["Kazakhstan", "Republic of Kazakhstan"]}
+{"dcid": "country/KEN", "name": "Kenya", "type": "Country", "alternativeNames": ["Kenya", "Republic of Kenya"]}
+{"dcid": "country/KGZ", "name": "Kyrgyzstan", "type": "Country", "alternativeNames": ["Kyrgyz Republic", "Kyrgyzstan"]}
+{"dcid": "country/KHM", "name": "Cambodia", "type": "Country", "alternativeNames": ["Cambodia", "Kingdom of Cambodia"]}
+{"dcid": "country/KIR", "name": "Kiribati", "type": "Country", "alternativeNames": ["Kiribati", "Republic of Kiribati"]}
+{"dcid": "country/KNA", "name": "Saint Kitts and Nevis", "type": "Country", "alternativeNames": []}
+{"dcid": "country/KOR", "name": "South Korea", "type": "Country", "alternativeNames": ["South Korea", "Republic of Korea"]}
+{"dcid": "country/KWT", "name": "Kuwait", "type": "Country", "alternativeNames": ["Kuwait", "State of Kuwait"]}
+{"dcid": "country/LAO", "name": "Laos", "type": "Country", "alternativeNames": ["Lao People's Democratic Republic", "Laos"]}
+{"dcid": "country/LBN", "name": "Lebanon", "type": "Country", "alternativeNames": ["Lebanese Republic", "Lebanon"]}
+{"dcid": "country/LBR", "name": "Liberia", "type": "Country", "alternativeNames": ["Liberia", "Republic of Liberia"]}
+{"dcid": "country/LBY", "name": "Libya", "type": "Country", "alternativeNames": ["State of Libya", "Libya"]}
+{"dcid": "country/LCA", "name": "Saint Lucia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/LIE", "name": "Liechtenstein", "type": "Country", "alternativeNames": []}
+{"dcid": "country/LKA", "name": "Sri Lanka", "type": "Country", "alternativeNames": []}
+{"dcid": "country/LSO", "name": "Lesotho", "type": "Country", "alternativeNames": ["Lesotho", "Kingdom of Lesotho"]}
+{"dcid": "country/LTU", "name": "Lithuania", "type": "Country", "alternativeNames": ["Republic of Lithuania", "Lithuania"]}
+{"dcid": "country/LUX", "name": "Luxembourg", "type": "Country", "alternativeNames": []}
+{"dcid": "country/LVA", "name": "Latvia", "type": "Country", "alternativeNames": ["Republic of Latvia", "Latvia"]}
+{"dcid": "country/MAC", "name": "Macau", "type": "AdministrativeArea1", "alternativeNames": ["Macao Special Administrative Region", "Macau"]}
+{"dcid": "country/MAF", "name": "Saint Martin", "type": "Country", "alternativeNames": ["Saint Martin"]}
+{"dcid": "country/MAR", "name": "Morocco", "type": "Country", "alternativeNames": ["Kingdom of Morocco", "Morocco"]}
+{"dcid": "country/MCO", "name": "Monaco", "type": "Country", "alternativeNames": ["Monaco"]}
+{"dcid": "country/MDA", "name": "Moldova", "type": "Country", "alternativeNames": ["Moldova", "Republic of Moldova"]}
+{"dcid": "country/MDG", "name": "Madagascar", "type": "Country", "alternativeNames": ["Republic of Madagascar", "Madagascar"]}
+{"dcid": "country/MDV", "name": "Maldives", "type": "Country", "alternativeNames": []}
+{"dcid": "country/MEX", "name": "Mexico", "type": "Country", "alternativeNames": ["Mexico", "United Mexican States"]}
+{"dcid": "country/MHL", "name": "Marshall Islands", "type": "Country", "alternativeNames": ["Republic of the Marshall Islands", "Marshall Islands"]}
+{"dcid": "country/MKD", "name": "Macedonia [FYROM]", "type": "Country", "alternativeNames": ["Republic of North Macedonia", "North Macedonia"]}
+{"dcid": "country/MLI", "name": "Mali", "type": "Country", "alternativeNames": ["Republic of Mali", "Mali"]}
+{"dcid": "country/MLT", "name": "Malta", "type": "Country", "alternativeNames": ["Republic of Malta", "Malta"]}
+{"dcid": "country/MMR", "name": "Myanmar", "type": "Country", "alternativeNames": ["Republic of the Union of Myanmar", "Burma", "Myanmar"]}
+{"dcid": "country/MNE", "name": "Montenegro", "type": "Country", "alternativeNames": ["Montenegro"]}
+{"dcid": "country/MNG", "name": "Mongolia", "type": "Country", "alternativeNames": ["Mongolia"]}
+{"dcid": "country/MNP", "name": "Northern Mariana Islands", "type": "AdministrativeArea1", "alternativeNames": []}
+{"dcid": "country/MOZ", "name": "Mozambique", "type": "Country", "alternativeNames": ["Mozambique", "Republic of Mozambique"]}
+{"dcid": "country/MRT", "name": "Mauritania", "type": "Country", "alternativeNames": ["Islamic Republic of Mauritania", "Mauritania"]}
+{"dcid": "country/MSR", "name": "Montserrat", "type": "AdministrativeArea1", "alternativeNames": ["Montserrat"]}
+{"dcid": "country/MTQ", "name": "Martinique", "type": "AdministrativeArea1", "alternativeNames": ["Martinique"]}
+{"dcid": "country/MUS", "name": "Mauritius", "type": "Country", "alternativeNames": ["Republic of Mauritius", "Mauritius"]}
+{"dcid": "country/MWI", "name": "Malawi", "type": "Country", "alternativeNames": ["Republic of Malawi", "Malawi"]}
+{"dcid": "country/MYS", "name": "Malaysia", "type": "Country", "alternativeNames": ["Malaysia"]}
+{"dcid": "country/MYT", "name": "Mayotte", "type": "AdministrativeArea1", "alternativeNames": ["Mayotte"]}
+{"dcid": "country/NAM", "name": "Namibia", "type": "Country", "alternativeNames": ["Republic of Namibia", "Namibia"]}
+{"dcid": "country/NCL", "name": "New Caledonia", "type": "AdministrativeArea1", "alternativeNames": ["New Caledonia"]}
+{"dcid": "country/NER", "name": "Niger", "type": "Country", "alternativeNames": ["Republic of Niger", "Niger"]}
+{"dcid": "country/NFK", "name": "Norfolk Island", "type": "AdministrativeArea1", "alternativeNames": ["Norfolk Island"]}
+{"dcid": "country/NGA", "name": "Nigeria", "type": "Country", "alternativeNames": ["Nigeria", "Federal Republic of Nigeria"]}
+{"dcid": "country/NHB", "name": "New Hebrides", "type": "Country", "alternativeNames": []}
+{"dcid": "country/NIC", "name": "Nicaragua", "type": "Country", "alternativeNames": []}
+{"dcid": "country/NIU", "name": "Niue", "type": "Country", "alternativeNames": ["Niue"]}
+{"dcid": "country/NLD", "name": "Netherlands", "type": "Country", "alternativeNames": ["Netherlands", "Holland"]}
+{"dcid": "country/NOR", "name": "Norway", "type": "Country", "alternativeNames": ["Norway", "Kingdom of Norway"]}
+{"dcid": "country/NPL", "name": "Nepal", "type": "Country", "alternativeNames": ["Nepal", "Federal Democratic Republic of Nepal"]}
+{"dcid": "country/NRU", "name": "Nauru", "type": "Country", "alternativeNames": ["Republic of Nauru", "Nauru"]}
+{"dcid": "country/NZL", "name": "New Zealand", "type": "Country", "alternativeNames": ["New Zealand", "Aotearoa"]}
+{"dcid": "country/OMN", "name": "Oman", "type": "Country", "alternativeNames": ["Sultanate of Oman", "Oman"]}
+{"dcid": "country/PAK", "name": "Pakistan", "type": "Country", "alternativeNames": ["Pakistan", "Islamic Republic of Pakistan"]}
+{"dcid": "country/PAN", "name": "Panama", "type": "Country", "alternativeNames": []}
+{"dcid": "country/PCN", "name": "Pitcairn Islands", "type": "AdministrativeArea1", "alternativeNames": ["Pitcairn Islands"]}
+{"dcid": "country/PER", "name": "Peru", "type": "Country", "alternativeNames": ["Peru", "Republic of Peru"]}
+{"dcid": "country/PHL", "name": "Philippines", "type": "Country", "alternativeNames": ["Philippines", "Republic of the Philippines"]}
+{"dcid": "country/PLW", "name": "Palau", "type": "Country", "alternativeNames": ["Republic of Palau", "Palau"]}
+{"dcid": "country/PNG", "name": "Papua New Guinea", "type": "Country", "alternativeNames": ["Papua New Guinea", "Independent State of Papua New Guinea"]}
+{"dcid": "country/POL", "name": "Poland", "type": "Country", "alternativeNames": ["Republic of Poland", "Poland"]}
+{"dcid": "country/PRI", "name": "Puerto Rico", "type": "Country", "alternativeNames": []}
+{"dcid": "country/PRK", "name": "North Korea", "type": "Country", "alternativeNames": ["North Korea", "Democratic People's Republic of Korea"]}
+{"dcid": "country/PRT", "name": "Portugal", "type": "Country", "alternativeNames": ["Portuguese Republic", "Portugal"]}
+{"dcid": "country/PRY", "name": "Paraguay", "type": "Country", "alternativeNames": []}
+{"dcid": "country/PSE", "name": "Palestinian Territories", "type": "Country", "alternativeNames": []}
+{"dcid": "country/PYF", "name": "French Polynesia", "type": "Country", "alternativeNames": ["French Polynesia"]}
+{"dcid": "country/QAT", "name": "Qatar", "type": "Country", "alternativeNames": ["State of Qatar", "Qatar"]}
+{"dcid": "country/REU", "name": "R\u00e9union", "type": "AdministrativeArea1", "alternativeNames": ["R\u00e9union"]}
+{"dcid": "country/ROU", "name": "Romania", "type": "Country", "alternativeNames": ["Romania"]}
+{"dcid": "country/RUS", "name": "Russia", "type": "Country", "alternativeNames": ["Russia", "Russian Federation"]}
+{"dcid": "country/RWA", "name": "Rwanda", "type": "Country", "alternativeNames": []}
+{"dcid": "country/SAU", "name": "Saudi Arabia", "type": "Country", "alternativeNames": ["Kingdom of Saudi Arabia", "Saudi Arabia"]}
+{"dcid": "country/SCG", "name": "Serbia and Montenegro", "type": "Country", "alternativeNames": []}
+{"dcid": "country/SDN", "name": "Sudan", "type": "Country", "alternativeNames": ["Sudan", "Republic of the Sudan"]}
+{"dcid": "country/SEN", "name": "Senegal", "type": "Country", "alternativeNames": ["Republic of Senegal", "Senegal"]}
+{"dcid": "country/SGP", "name": "Singapore", "type": "Country", "alternativeNames": ["Republic of Singapore", "Singapore"]}
+{"dcid": "country/SGS", "name": "South Georgia and the South Sandwich Islands", "type": "AdministrativeArea1", "alternativeNames": ["South Georgia and the South Sandwich Islands"]}
+{"dcid": "country/SHN", "name": "Saint Helena", "type": "AdministrativeArea1", "alternativeNames": ["Saint Helena"]}
+{"dcid": "country/SJM", "name": "Svalbard and Jan Mayen", "type": "Country", "alternativeNames": ["Svalbard and Jan Mayen"]}
+{"dcid": "country/SLB", "name": "Solomon Islands", "type": "Country", "alternativeNames": ["Solomon Islands"]}
+{"dcid": "country/SLE", "name": "Sierra Leone", "type": "Country", "alternativeNames": ["Sierra Leone", "Republic of Sierra Leone"]}
+{"dcid": "country/SLV", "name": "El Salvador", "type": "Country", "alternativeNames": []}
+{"dcid": "country/SMR", "name": "San Marino", "type": "Country", "alternativeNames": ["San Marino"]}
+{"dcid": "country/SOM", "name": "Somalia", "type": "Country", "alternativeNames": ["Somalia", "Federal Republic of Somalia"]}
+{"dcid": "country/SPM", "name": "Saint Pierre and Miquelon", "type": "Country", "alternativeNames": ["Saint Pierre and Miquelon"]}
+{"dcid": "country/SRB", "name": "Serbia", "type": "Country", "alternativeNames": ["Republic of Serbia", "Serbia"]}
+{"dcid": "country/SSD", "name": "South Sudan", "type": "Country", "alternativeNames": ["Republic of South Sudan", "South Sudan"]}
+{"dcid": "country/STP", "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe", "type": "Country", "alternativeNames": ["Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe", "Sao Tome and Principe"]}
+{"dcid": "country/SUN", "name": "Union of Soviet Socialist Republics", "type": "Country", "alternativeNames": []}
+{"dcid": "country/SUR", "name": "Suriname", "type": "Country", "alternativeNames": []}
+{"dcid": "country/SVK", "name": "Slovakia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/SVN", "name": "Slovenia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/SWE", "name": "Sweden", "type": "Country", "alternativeNames": ["Kingdom of Sweden", "Sweden"]}
+{"dcid": "country/SWZ", "name": "Eswatini", "type": "Country", "alternativeNames": ["Eswatini", "Swaziland", "Kingdom of Eswatini"]}
+{"dcid": "country/SXM", "name": "Sint Maarten", "type": "Country", "alternativeNames": ["Sint Maarten"]}
+{"dcid": "country/SYC", "name": "Seychelles", "type": "Country", "alternativeNames": ["Republic of Seychelles", "Seychelles"]}
+{"dcid": "country/SYR", "name": "Syria", "type": "Country", "alternativeNames": ["Syria", "Syrian Arab Republic"]}
+{"dcid": "country/TCA", "name": "Turks and Caicos Islands", "type": "AdministrativeArea1", "alternativeNames": ["Turks and Caicos Islands"]}
+{"dcid": "country/TCD", "name": "Chad", "type": "Country", "alternativeNames": ["Chad", "Republic of Chad"]}
+{"dcid": "country/TGO", "name": "Togo", "type": "Country", "alternativeNames": []}
+{"dcid": "country/THA", "name": "Thailand", "type": "Country", "alternativeNames": ["Siam", "Thailand", "Kingdom of Thailand"]}
+{"dcid": "country/TJK", "name": "Tajikistan", "type": "Country", "alternativeNames": ["Republic of Tajikistan", "Tajikistan"]}
+{"dcid": "country/TKL", "name": "Tokelau", "type": "Country", "alternativeNames": ["Tokelau"]}
+{"dcid": "country/TKM", "name": "Turkmenistan", "type": "Country", "alternativeNames": ["Turkmenistan"]}
+{"dcid": "country/TLS", "name": "East Timor", "type": "Country", "alternativeNames": []}
+{"dcid": "country/TON", "name": "Tonga", "type": "Country", "alternativeNames": ["Tonga", "Kingdom of Tonga"]}
+{"dcid": "country/TTO", "name": "Trinidad and Tobago", "type": "Country", "alternativeNames": []}
+{"dcid": "country/TUN", "name": "Tunisia", "type": "Country", "alternativeNames": ["Tunisia", "Republic of Tunisia"]}
+{"dcid": "country/TUR", "name": "Turkey", "type": "Country", "alternativeNames": ["Republic of Turkey", "Turkey"]}
+{"dcid": "country/TUV", "name": "Tuvalu", "type": "Country", "alternativeNames": ["Tuvalu"]}
+{"dcid": "country/TWN", "name": "Taiwan", "type": "Country", "alternativeNames": ["Republic of China", "Taiwan"]}
+{"dcid": "country/TZA", "name": "Tanzania", "type": "Country", "alternativeNames": ["Tanzania", "United Republic of Tanzania"]}
+{"dcid": "country/UGA", "name": "Uganda", "type": "Country", "alternativeNames": ["Uganda", "Republic of Uganda"]}
+{"dcid": "country/UKR", "name": "Ukraine", "type": "Country", "alternativeNames": ["Ukraine"]}
+{"dcid": "country/UMI", "name": "U.S. Minor Outlying Islands", "type": "AdministrativeArea1", "alternativeNames": ["U.S. Minor Outlying Islands"]}
+{"dcid": "country/URY", "name": "Uruguay", "type": "Country", "alternativeNames": []}
+{"dcid": "country/USA", "name": "United States", "type": "Country", "alternativeNames": ["U.S.", "United States", "America", "USA", "US", "United States of America"]}
+{"dcid": "country/UZB", "name": "Uzbekistan", "type": "Country", "alternativeNames": ["Republic of Uzbekistan", "Uzbekistan"]}
+{"dcid": "country/VAT", "name": "Vatican City", "type": "Country", "alternativeNames": ["Vatican City", "Holy See"]}
+{"dcid": "country/VCT", "name": "Saint Vincent and the Grenadines", "type": "Country", "alternativeNames": []}
+{"dcid": "country/VEN", "name": "Venezuela", "type": "Country", "alternativeNames": ["Bolivarian Republic of Venezuela", "Venezuela"]}
+{"dcid": "country/VGB", "name": "British Virgin Islands", "type": "AdministrativeArea1", "alternativeNames": ["British Virgin Islands"]}
+{"dcid": "country/VIR", "name": "U.S. Virgin Islands", "type": "Country", "alternativeNames": ["U.S. Virgin Islands"]}
+{"dcid": "country/VNM", "name": "Vietnam", "type": "Country", "alternativeNames": ["Socialist Republic of Vietnam", "Vietnam"]}
+{"dcid": "country/VUT", "name": "Vanuatu", "type": "Country", "alternativeNames": ["Republic of Vanuatu", "Vanuatu"]}
+{"dcid": "country/WLF", "name": "Wallis and Futuna", "type": "Country", "alternativeNames": ["Wallis and Futuna"]}
+{"dcid": "country/WSM", "name": "Samoa", "type": "Country", "alternativeNames": ["Samoa", "Independent State of Samoa"]}
+{"dcid": "country/XKS", "name": "Kosovo", "type": "Country", "alternativeNames": ["Kosovo", "Republic of Kosovo"]}
+{"dcid": "country/YEM", "name": "Yemen", "type": "Country", "alternativeNames": ["Yemen", "Republic of Yemen"]}
+{"dcid": "country/YUG", "name": "Yugoslavia", "type": "Country", "alternativeNames": []}
+{"dcid": "country/ZAF", "name": "South Africa", "type": "Country", "alternativeNames": ["Republic of South Africa", "South Africa"]}
+{"dcid": "country/ZMB", "name": "Zambia", "type": "Country", "alternativeNames": ["Republic of Zambia", "Zambia"]}
+{"dcid": "country/ZWE", "name": "Zimbabwe", "type": "Country", "alternativeNames": ["Zimbabwe", "Republic of Zimbabwe"]}
+{"dcid": "wikidataId/Q130340667", "name": "Sovereign State of the Bektashi Order", "type": "Country", "alternativeNames": ["Arab League"]}
+{"dcid": "wikidataId/Q23681", "name": "Turkish Republic of Northern Cyprus", "type": "Country", "alternativeNames": ["Central America"]}
+{"dcid": "wikidataId/Q244165", "name": "Artsakh", "type": "Country", "alternativeNames": ["Benelux"]}
+{"dcid": "wikidataId/Q29999", "name": "Kingdom of the Netherlands", "type": "Country", "alternativeNames": ["Kingdom of the Netherlands"]}
+{"dcid": "wikidataId/Q31354462", "name": "Republic of Abkhazia", "type": "Country", "alternativeNames": ["African Union"]}
+{"dcid": "wikidataId/Q40362", "name": "Sahrawi Arab Democratic Republic", "type": "Country", "alternativeNames": ["Melanesia"]}
+{"dcid": "wikidataId/Q756617", "name": "Kingdom of Denmark", "type": "Country", "alternativeNames": ["Polynesia"]}
